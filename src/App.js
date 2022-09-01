@@ -1,0 +1,87 @@
+import logo from './TNA_logo.jpg';
+import log from './channels4_profile.jpg';
+import pat from './patreon-logo-icon.jpg';
+import tn from './41Hrt3J6VVL._AC_.jpg';
+import disc from './cc59daa07820943e943c2fc283b9079d7003ff76.svg';
+import './App.css';
+import YoutubeEmbed from './saint.js';
+import bptn from './unknown (9).png';
+import bptn1 from './unknown (1).png';
+import bptn2 from './unknown (2).png';
+import bptn3 from './unknown (3).png';
+import bptn4 from './unknown (4).png';
+import bptn5 from './unknown (5).png';
+import bptn6 from './unknown (6).png';
+import bptn7 from './unknown (7).png';
+import bptn8 from './unknown (8).png';
+import fleet from './unknown.png';
+import { Link } from "react-router-dom";
+
+function App() {
+  return (
+    <div className="App">
+      <header className="App-header">
+        <img src={logo} className="App-logo" alt="logo" />
+        <p> Tattoo Nation Armada (TNA)</p>
+      </header>
+      <p className='Arm'> Fleets In The Armada </p>
+      <div className='arm'>
+      <a href='/'>
+      <img src={bptn} className='fleet1' alt='bptn'/>
+      </a>
+      <a href='/'>
+      <img src={bptn1} className='fleet1' alt='bptn'/>
+      </a>
+      <a href='/'>
+      <img src={bptn2} className='fleet1' alt='bptn'/>
+      </a>
+      <a href='/'>
+      <img src={bptn3} className='fleet1' alt='bptn'/>
+      </a>
+      <a href='/'>
+      <img src={bptn4} className='fleet1' alt='bptn'/>
+      </a>
+      <a href='/'>
+      <img src={bptn5} className='fleet1' alt='bptn'/>
+      </a>
+      <a href='/'>
+      <img src={bptn6} className='fleet1' alt='bptn'/>
+      </a>
+      <a href='/'>
+      <img src={bptn7} className='fleet1' alt='bptn'/>
+      </a>
+      <a href='/'>
+      <img src={bptn8} className='fleet1' alt='bptn'/>
+      </a>
+      </div>
+      <YoutubeEmbed embedId="JFnwbCKYEYI"/>
+      <div className='side'>
+        <div className='bod'>
+          <a href='https://www.youtube.com/channel/UCe1HQnu1JdXvzQHk9Sl10eA/videos' className='pat-a'>
+          <img src={log} className='bod-img' alt="logo" />
+          </a>
+          <p>Thermal Global Nuclear Media YouTube Link</p>
+          </div>
+          <div className='bod'>
+          <a href='https://www.patreon.com/TGNM' className='pat-a'>
+            <img src={pat} className='pat' alt='pat'/>
+          </a>
+          <p> Thermal Global Nuclear Media Patreon </p>
+        </div>
+        <div className='bod'>
+          <a href='https://tattoonation.shivtr.com' className='pat-a'>
+          <img src={tn} className='tn' alt='bod-img'/>
+          </a>
+          <p> TattooNation Shivtr </p>
+        </div>
+        <div className='bod'>
+          <a href='https://discord.com/channels/190311218018254850/547258201138003978/1012528288410894446' className='pat-a'>
+          <img src={disc} className='img' alt='bod-img'/>
+          </a>
+        </div>
+      </div>
+    </div>
+  );
+}
+
+export default App;
