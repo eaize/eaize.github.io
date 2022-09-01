@@ -1,0 +1,27 @@
+{
+  "files": {
+    "main.css": "/static/css/main.8c541ea4.css",
+    "main.js": "/static/js/main.d20e7293.js",
+    "static/js/787.34e8a19d.chunk.js": "/static/js/787.34e8a19d.chunk.js",
+    "static/media/unknown.png": "/static/media/unknown.c31592fdfd1b27fa09a4.png",
+    "static/media/TNA_logo.jpg": "/static/media/TNA_logo.190dec6c7e3ccd61b25a.jpg",
+    "static/media/patreon-logo-icon.jpg": "/static/media/patreon-logo-icon.d3d5d9adf734cafec410.jpg",
+    "static/media/41Hrt3J6VVL._AC_.jpg": "/static/media/41Hrt3J6VVL._AC_.2beb3af0899f658b121c.jpg",
+    "static/media/unknown (9).png": "/static/media/unknown (9).4a7ec6572a3d426deba1.png",
+    "static/media/unknown (5).png": "/static/media/unknown (5).87fdeec6dd01f0674aa0.png",
+    "static/media/unknown (3).png": "/static/media/unknown (3).debc36c690146822ec49.png",
+    "static/media/unknown (7).png": "/static/media/unknown (7).9b6edbea43ed9d5e72e0.png",
+    "static/media/unknown (2).png": "/static/media/unknown (2).2d4bdf444a54a07f4611.png",
+    "static/media/unknown (4).png": "/static/media/unknown (4).d6295793c30187c40652.png",
+    "static/media/unknown (8).png": "/static/media/unknown (8).ef82eece1ee0b8e44bda.png",
+    "static/media/7003ff76.svg": "/static/media/cc59daa07820943e943c2fc283b9079d7003ff76.760d8db79a4c61bbb69126177e67d109.svg",
+    "index.html": "/index.html",
+    "main.8c541ea4.css.map": "/static/css/main.8c541ea4.css.map",
+    "main.d20e7293.js.map": "/static/js/main.d20e7293.js.map",
+    "787.34e8a19d.chunk.js.map": "/static/js/787.34e8a19d.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.8c541ea4.css",
+    "static/js/main.d20e7293.js"
+  ]
+}
