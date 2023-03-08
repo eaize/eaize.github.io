@@ -1,0 +1,28 @@
+{% extends 'base.html' %} {% block content %}{% load static %}
+<div class="bordert">
+  <section class="content">
+    <div class="header">
+      <img src="/static/img/twitter.png" class="logo" />
+      <a href="#">Edit</a>
+    </div>
+    <section class="post_form">
+      <img src="{% static 'img/user.png' %}" style="width: 10%; margin-bottom: -11%; margin-left: 3%;" !important/>
+      <form action="/edit/{{posts.id}}/" method="POST" enctype="multipart/form-data" style="margin-left: 20%;">
+        {% csrf_token %}
+        <input type="text" name="name" placeholder="Name" value="{{posts.name}}" required/><br />
+        <input name="body" rows="5" value="{{posts.body}}" required></input>
+        <br />
+        <input id="uploadfile" type="file" name="image" /><br />
+        {% if posts.image.url %}
+        <img class="Image" src="{{posts.image.url}}" />
+        {% endif %}
+        <br />
+        <div class="tweet" style="display: flex; margin-left: -21%;">
+          <a href="{% url 'index' %}" id="btnn" type="submit" style="margin-bottom: 8px; text-align: center; margin-top: 2px; margin-right: 19px;">Cancel</a>
+          <input id="btn" type="submit" value="Update" />
+        </div>
+      </form>
+    </section>
+  </section>
+</div>
+{% endblock%}
