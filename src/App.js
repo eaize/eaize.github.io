@@ -16,22 +16,6 @@ import {useDocTitle} from './components/CustomHook';
 import ScrollToTop from './components/ScrollToTop';
 
 function App() {
-  useEffect(() => {
-    const aos_init = () => {
-      AOS.init({
-        once: true,
-        duration: 1000,
-        easing: 'ease-out-cubic',
-      });
-    }
-
-    window.addEventListener('load', () => {
-      aos_init();
-    });
-  }, []);
-
-  useDocTitle("MLD | Molad e Konsult - Bespoke Web and Mobile Applications");
-
   return (
     <>
       <Router>
