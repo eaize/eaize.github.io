@@ -1,0 +1,20 @@
+{
+  "files": {
+    "main.css": "/eaize/eaize.github.io/static/css/main.3c5d4241.css",
+    "main.js": "/eaize/eaize.github.io/static/js/main.bb32bcae.js",
+    "static/media/lion.jpg": "/eaize/eaize.github.io/static/media/lion.270731ded76fca435de9.jpg",
+    "static/media/hero-img.jpg": "/eaize/eaize.github.io/static/media/hero-img.95e01d85c92163140be4.jpg",
+    "static/media/residents-energy-logo.png": "/eaize/eaize.github.io/static/media/residents-energy-logo.1ee1f21f7024b8ff6b74.png",
+    "static/media/Web-developer.jpg": "/eaize/eaize.github.io/static/media/Web-developer.3519be2896737ad28e3f.jpg",
+    "static/media/footer.svg": "/eaize/eaize.github.io/static/media/footer.70b54bbe52a797ce69c1.svg",
+    "static/media/tomorrow .svg": "/eaize/eaize.github.io/static/media/tomorrow .d63aa133019b2e598c7b8ac362f68bb8.svg",
+    "index.html": "/eaize/eaize.github.io/index.html",
+    "static/media/hero-bg.svg": "/eaize/eaize.github.io/static/media/hero-bg.c3b4448a16ff1a8da834.svg",
+    "main.3c5d4241.css.map": "/eaize/eaize.github.io/static/css/main.3c5d4241.css.map",
+    "main.bb32bcae.js.map": "/eaize/eaize.github.io/static/js/main.bb32bcae.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.3c5d4241.css",
+    "static/js/main.bb32bcae.js"
+  ]
+}
